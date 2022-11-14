@@ -1,0 +1,62 @@
+/* ---------
+HEADER MENMU
+---------- */
+
+header{
+    background-color: #0084fd;
+    height: 80px;
+    padding: 25px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.hamburgher-icon a{
+    font-size: 35px;
+}
+
+.horizontal-menu{
+    display: none;
+}
+
+
+/* --------
+INTRO CARDS
+--------- */
+
+main{
+    padding: 130px 25px;
+}
+
+.cards{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-blue, .card-blue-big{
+    background-color: #b5ddff;
+    padding: 25px 25px 0;
+}
+
+.title-card-blue{
+    color: #0084fd;
+    font-size: 25px;
+}
+
+.btn-card{
+    background-color: #0084fd;
+    padding: 7px 90px;
+}
+
+.img-blue-card{
+    margin-bottom: -4px;
+}
+
+.icon-blue{
+    font-size: 75px;
+    color: #0084fd;
+}
+
+.card-blue-big-dsk{
+    display: none;
+}

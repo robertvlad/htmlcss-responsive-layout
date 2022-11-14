@@ -1,6 +1,6 @@
 /* ----------
 GENERAL STYLE
----------- */
+----------- */
 
 *{
     padding: 0;
@@ -8,3 +8,74 @@ GENERAL STYLE
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rounded-20px{
+    border-radius: 20px;
+}
+
+
+/* ------------------
+Container and columns
+------------------- */
+
+.row{
+    display: flex;
+}
+
+.container{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.col-50{
+    width: 50%;
+}
+
+
+/* ----------
+Flex property
+----------- */
+
+.flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+/* -----------
+Align property
+------------ */
+
+.text-align-center{
+    text-align: center;
+}
+
+
+/* -----------
+Space property
+------------ */
+
+.padding-25px{
+    padding: 25px;
+}
+
+.margin-bottom-30px{
+    margin-bottom: 30px;
+}
+

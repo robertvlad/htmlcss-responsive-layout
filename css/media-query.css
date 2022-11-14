@@ -1,0 +1,112 @@
+/* ---
+TABLET
+---- */
+
+@media all and (min-width: 768px){
+
+    /* COMMON */
+
+    .container{
+        max-width: 990px;
+    }
+
+    /* INTRO */
+
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-blue{
+        width: calc(100% / 3 - 30px);
+    }
+
+    .card-blue-big{
+        width: calc(100% / 3 * 2 - 60px);
+    }
+
+    .content p{
+        line-height: 30px;
+    }
+
+}
+
+
+
+/* ----
+DESKTOP
+----- */
+
+@media all and (min-width: 992px){
+
+    /* COMMON */
+
+    .container{
+        max-width: 1080px;
+    }
+    
+    /* HEADER */
+
+    .hamburgher-icon{
+        display: none;
+    }
+
+    .horizontal-menu{
+        display: flex;
+    }
+
+    .horizontal-menu ul{
+        list-style-type: none;
+    }
+
+    .horizontal-menu ul li:not(:last-child){
+        padding-right: 25px;
+    }
+
+    .btn-header a{
+        color: #000000;
+    }
+
+    .btn-header{
+        padding: 5px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+    }
+
+
+    /* INTRO */
+
+    .card-blue-big-dsk{
+        display: flex;
+        background-color: #b5ddff;
+        padding: 25px 25px 0;
+        width: calc(100% / 3 * 2 - 60px);
+    }
+
+    .card-blue-big{
+        display: none;
+    }
+
+    .img-stick-down{
+        flex-direction: column-reverse;
+    }
+
+
+
+}
+
+
+
+/* ----------
+LARGE DESKTOP
+---------- */
+
+@media all and (min-width: 1200px){
+
+    /* COMMON */
+
+    .container{
+        max-width: 1200px;
+    }
+
+}
