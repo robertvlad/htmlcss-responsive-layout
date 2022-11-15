@@ -59,6 +59,19 @@ TABLET
     .about-us-section-2{
         width: calc(100% / 4);
     }
+
+    /* SICTH SECTION */
+
+    .small-comtainer{
+        width: 90%;
+    }
+
+    
+    /* FOOTER */
+
+    .small-container-footer{
+        width: 60%;
+    }
 }
 
 
@@ -143,6 +156,19 @@ DESKTOP
 
     .card-white{
         max-width: calc(100% / 3 - 20px)
+    }
+
+    /* SICTH SECTION */
+
+    .small-comtainer{
+        width: 70%;
+    }
+
+
+    /* FOOTER */
+
+    .small-container-footer{
+        width: 50%;
     }
 }
 

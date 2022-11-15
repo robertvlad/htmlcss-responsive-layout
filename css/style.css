@@ -133,3 +133,46 @@ FIFTH SECTION
 .btn-linkedin{
     padding: 10px 10px;
 }
+
+/* ----------
+SIXTH SECTION 
+------------*/
+
+.small-comtainer{
+    width: 100%;
+}
+
+.free{
+    font-size: 50px;
+    color: #ffa500;
+}
+
+.btn-get-started{
+    background-color: #ffffff;
+    padding: 15px 30px;
+}
+
+.privacy a{
+    text-decoration: underline;
+}
+
+.privacy{
+    padding-top: 50px;
+}
+
+
+/* ----
+FOOTER
+----- */
+
+footer{
+    background-color: #333333;
+}
+
+.small-comtainer-footer{
+    width: 100%;
+}
+
+.link-footer a{
+    text-decoration: underline;
+}

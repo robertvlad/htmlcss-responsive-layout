@@ -55,6 +55,10 @@ Flex property
     justify-content: space-between;
 }
 
+.justify-content-center{
+    justify-content: center;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -125,4 +129,8 @@ COLOR AND FONT
 
 .txt-font-size-25px{
     font-size: 25px;
+}
+
+.txt-font-size-40px{
+    font-size: 40px;
 }
