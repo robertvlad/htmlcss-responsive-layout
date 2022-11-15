@@ -105,3 +105,31 @@ FOURTH SECTION
     color: #ffffff;
     padding: 8px 50px;
 }
+
+
+/* ----------
+FIFTH SECTION
+----------- */
+
+.about-us-title{
+    font-size: 50px;
+}
+
+.icon-quotes-img{
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-size: 50px;
+}
+
+.section-img-about-us{
+    position: relative;
+}
+
+.about-us-section-1{
+    margin-bottom: 30px;
+}
+
+.btn-linkedin{
+    padding: 10px 10px;
+}

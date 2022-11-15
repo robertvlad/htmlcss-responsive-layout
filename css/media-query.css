@@ -46,6 +46,19 @@ TABLET
     .card-white{
         width: calc(100% / 2 - 15px)
     }
+
+
+    /* FIFTH SECTION */
+
+    .about-us-section-1{
+        margin-bottom: 0;
+        margin-right: 30px;
+        width: calc(100% / 4 * 3);
+    }
+
+    .about-us-section-2{
+        width: calc(100% / 4);
+    }
 }
 
 

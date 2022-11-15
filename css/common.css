@@ -107,9 +107,9 @@ Space property
     line-height: 30px;
 }
 
-/* --
-COLOR
---- */
+/* -----------
+COLOR AND FONT
+------------ */
 
 .txt-white{
     color: #ffffff;
@@ -121,4 +121,8 @@ COLOR
 
 .background-purple{
     background-color: #9792e4;
+}
+
+.txt-font-size-25px{
+    font-size: 25px;
 }
