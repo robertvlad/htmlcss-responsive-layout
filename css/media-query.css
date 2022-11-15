@@ -10,12 +10,17 @@ TABLET
         max-width: 750px;
     }
 
-    /* INTRO */
+    .column-to-row{
+        flex-direction: row;
+    }
 
     .cards{
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+
+    /* INTRO */    
 
     .card-blue{
         width: calc(100% / 3 - 30px);
@@ -25,10 +30,15 @@ TABLET
         width: calc(100% / 3 * 2 - 60px);
     }
 
-    .content p{
-        line-height: 30px;
-    }
 
+    /* THIRD SECTION */
+
+    .content-circle-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 25px;
+    }
 }
 
 
@@ -107,9 +117,6 @@ DESKTOP
         display: flex;
         flex-direction: column-reverse;
     }
-
-
-
 }
 
 
@@ -125,5 +132,4 @@ LARGE DESKTOP
     .container{
         max-width: 1000px;
     }
-
 }

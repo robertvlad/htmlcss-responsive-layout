@@ -18,9 +18,11 @@ a{
     color: #ffffff;
 }
 
-.rounded-20px{
-    border-radius: 20px;
+.cards{
+    flex-direction: column;
+    gap: 30px;
 }
+
 
 
 /* ------------------
@@ -34,7 +36,6 @@ Container and columns
 .container{
     max-width: 600px;
     margin: 0 auto;
-    padding: 0 25px;
 }
 
 .col-50{
@@ -56,6 +57,10 @@ Flex property
 
 .align-items-center{
     align-items: center;
+}
+
+.column-to-row{
+    flex-direction: column;
 }
 
 
@@ -80,10 +85,23 @@ Space property
     margin-bottom: 30px;
 }
 
-.padding-70-0{
-    padding: 70px 0;
+.padding-70px-25px{
+    padding: 70px 25px;
 }
 
+.rounded-20px{
+    border-radius: 20px;
+}
+
+.img-circle{
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.content p{
+    line-height: 30px;
+}
 
 /* --
 COLOR
@@ -93,3 +111,10 @@ COLOR
     color: #ffffff;
 }
 
+.txt-purple{
+    color: #9792e4;
+}
+
+.background-purple{
+    background-color: #9792e4;
+}

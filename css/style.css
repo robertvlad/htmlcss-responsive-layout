@@ -28,11 +28,6 @@ INTRO CARDS
     padding-top: 60px;
 }
 
-.cards{
-    flex-direction: column;
-    gap: 30px;
-}
-
 .card-blue, .card-blue-big{
     background-color: #b5ddff;
     padding: 25px 25px 0;
@@ -66,10 +61,6 @@ INTRO CARDS
 SECOND SECTION
 ------------ */
 
-.second-section{
-    background-color: #9792e4;
-}
-
 .strategix-planning{
     margin-top: 70px;
 }
@@ -92,3 +83,8 @@ SECOND SECTION
 .row-second-section{
     flex-direction: column;
 }
+
+
+/* ----------
+THIRD SECTION
+----------- */
