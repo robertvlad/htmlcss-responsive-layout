@@ -32,8 +32,9 @@ Container and columns
 }
 
 .container{
-    max-width: 690px;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 .col-50{
@@ -77,5 +78,18 @@ Space property
 
 .margin-bottom-30px{
     margin-bottom: 30px;
+}
+
+.padding-70-0{
+    padding: 70px 0;
+}
+
+
+/* --
+COLOR
+--- */
+
+.txt-white{
+    color: #ffffff;
 }
 

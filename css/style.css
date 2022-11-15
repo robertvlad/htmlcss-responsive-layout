@@ -24,8 +24,8 @@ header{
 INTRO CARDS
 --------- */
 
-main{
-    padding: 130px 25px;
+.intro-section{
+    padding-top: 60px;
 }
 
 .cards{
@@ -59,4 +59,36 @@ main{
 
 .card-blue-big-dsk{
     display: none;
+}
+
+
+/* -----------
+SECOND SECTION
+------------ */
+
+.second-section{
+    background-color: #9792e4;
+}
+
+.strategix-planning{
+    margin-top: 70px;
+}
+
+.app-developement{
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.app-developement img{
+    max-width: 65%;
+}
+
+.icon-arrow{
+    background-color: #9792e4;
+    border-radius: 100%;
+    padding: 5px 7px;
+}
+
+.row-second-section{
+    flex-direction: column;
 }
