@@ -23,11 +23,11 @@ TABLET
     /* INTRO */    
 
     .card-blue{
-        width: calc(100% / 3 - 30px);
+        width: calc(100% / 3 - 20px);
     }
 
     .card-blue-big{
-        width: calc(100% / 3 * 2 - 60px);
+        width: calc(100% / 3 * 2 - 15px);
     }
 
 
@@ -38,6 +38,13 @@ TABLET
         flex-direction: column;
         justify-content: center;
         padding-right: 25px;
+    }
+
+
+    /* FOURTH SECTION */
+
+    .card-white{
+        width: calc(100% / 2 - 15px)
     }
 }
 
@@ -90,7 +97,7 @@ DESKTOP
         display: flex;
         background-color: #b5ddff;
         padding: 25px 25px 0;
-        width: calc(100% / 3 * 2 - 30px);
+        width: calc(100% / 3 * 2 - 15px);
     }
 
     .card-blue-big{
@@ -116,6 +123,13 @@ DESKTOP
     .col-app-developement{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+
+    /* FOURTH SECTION */
+
+    .card-white{
+        max-width: calc(100% / 3 - 20px)
     }
 }
 
